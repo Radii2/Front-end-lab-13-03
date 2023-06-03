@@ -1,0 +1,35 @@
+.image-card {
+  display: flex;
+  height: 800px;
+  width: 800px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.exit-details-link {
+  text-decoration: none;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 900px;
+}
+
+.exit-details-button {
+  width: 80px;
+  height: 80px;
+  background-color: #0a0a23;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}

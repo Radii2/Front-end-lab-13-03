@@ -1,0 +1,45 @@
+.arrow {
+  font-weight: bold;
+  font-size: 40px;
+}
+.empty-arrow-block {
+  width: 100px;
+  margin: 20px;
+}
+.arrow-block {
+  width: 100px;
+  border: 2px solid black;
+  text-align: center;
+  vertical-align: middle;
+  margin: 20px;
+}
+
+.arrow-block:hover {
+  cursor: pointer;
+}
+.image-card {
+  display: flex;
+  height: 800px;
+  width: 800px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.details-link {
+  text-decoration: none;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 900px;
+}
